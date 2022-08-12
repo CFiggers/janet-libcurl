@@ -73,7 +73,7 @@ static Janet curl_easy_wrapped(int32_t argc, Janet *argv)
 static const JanetReg janet_curl_easy_cfuns[] = {
     {"curl-easy", curl_easy_wrapped,
      "(curl-easy url)\n\n"
-     "Makes an http/s request using default settings of curl_easy. "
+     "Makes an http/s request using default settings of curl\\_easy. "
      "Returns result of request."},
     {NULL, NULL, NULL}};
 
